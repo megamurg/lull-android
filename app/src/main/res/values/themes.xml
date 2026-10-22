@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark only, like the iOS app: black window and system bars with light (white) icons. -->
+    <style name="Theme.Lull" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/lull_background</item>
+        <item name="android:colorBackground">@color/lull_background</item>
+        <item name="android:statusBarColor">@color/lull_background</item>
+        <item name="android:navigationBarColor">@color/lull_background</item>
+        <!-- false = light icons on the dark bars. -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+    </style>
+</resources>

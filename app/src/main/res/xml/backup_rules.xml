@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 and earlier (android:fullBackupContent). Schedules, history and settings are worth keeping;
+     nothing Lull stores is secret (no accounts, no network). -->
+<full-backup-content>
+    <include domain="file" path="." />
+    <include domain="sharedpref" path="." />
+</full-backup-content>
